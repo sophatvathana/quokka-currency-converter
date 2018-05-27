@@ -13,7 +13,7 @@ class OptionsTableSeeder extends Seeder
     {
         DB::table('options')->insert([
             'name' => 'exchangeratemode_default',
-            'value' => ''
+            'value' => 'CurrencyConverter'
         ]);
     }
 }
