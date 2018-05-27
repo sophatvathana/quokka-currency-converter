@@ -26,7 +26,7 @@ See it in action at http://warm-ocean-21172.herokuapp.com/?amount=4000&from=KHR&
 
 ## Deploy to Heroku
 
-Click the button below to deploy a new instance of Startup Engine to Heroku instantly.
+Click the button below to deploy a new instance of App to Heroku instantly.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sophatvathana/quokka-currency-converter.git)
 
