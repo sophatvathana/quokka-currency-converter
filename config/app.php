@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', false),
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -160,11 +160,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         TorMorten\Eventy\EventServiceProvider::class,
-        TorMorten\Eventy\EventBladeServiceProvider::class, 
+        TorMorten\Eventy\EventBladeServiceProvider::class,
         App\Providers\ExchangeRateServiceProvider::class,
     ],
 
-    
+
     /*
     |--------------------------------------------------------------------------
     | Class Aliases
